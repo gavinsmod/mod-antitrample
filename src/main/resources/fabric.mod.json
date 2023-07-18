@@ -1,27 +1,27 @@
 {
   "schemaVersion": 1,
-  "id": "mod-template",
+  "id": "gem-antitrample",
   "version": "${version}",
-  "name": "mod-template",
+  "name": "gem-antitrample",
   "description": "",
   "authors": [],
   "contact": {
-    "repo": "https://github.com/gavinsmod/mod-template"
+    "repo": "https://github.com/gavinsmod/gem-antitrample"
   },
   "license": "MIT",
-  "icon": "assets/mod-template/icon.png",
+  "icon": "assets/gem-antitrample/icon.png",
   "environment": "client",
   "entrypoints": {
     "main": [
-      "com.peasenet.mod.Mod_template"
+      "com.peasenet.mod.AntiTrampleMod"
     ]
   },
   "mixins": [
-    "mod-template.mixins.json"
+    "gem-antitrample.mixins.json"
   ],
   "depends": {
     "fabricloader": ">=${loader_version}",
-    "gavinsmod": ">=1.4.5",
+    "gemclient-core": ">=1.0.2",
     "fabric": "*",
     "minecraft": "${minecraft_version}"
   }
